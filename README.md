@@ -1,16 +1,47 @@
-# React + Vite
+# Darshan G — Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Professional, responsive portfolio showcasing the work, skills and projects of Darshan G — a Computer Science Engineer and Frontend Developer. This repository contains a modern React + Vite single-page portfolio with animated UI, dark/light themes, responsive navbar, and an interactive contact form.
 
-Currently, two official plugins are available:
+**Live preview:** http://localhost:5173/ (run locally)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Why this project matters to hiring partners**
 
-## React Compiler
+- **Clear skill signals:** Real-world UI built with React, responsive CSS, and modern UX patterns (hamburger nav, theme toggle, animations).
+- **End-to-end polish:** Contact form, downloadable resume, accessible color themes and mobile-first layout — ready to demo to recruiters.
+- **Fast to review:** Focused, single-page experience that highlights technical skills, projects and contact information for rapid screening.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Key Features
 
-## Expanding the ESLint configuration
+- Dark / Light theme with persisted preference
+- Responsive navbar with hamburger menu and download-resume button
+- Hero section with animated entry and profile image
+- About, Skills, Projects and Contact sections implemented as separate React components
+- CSS animations, gradients and subtle hover interactions
+- Contact form with basic client-side handling
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+
+- React 19.x
+- Vite 7.x
+- Vanilla CSS (custom properties, responsive breakpoints)
+- Dev tooling: npm, Vite dev server
+
+## Quick Start (local)
+
+1. Install dependencies
+
+```powershell
+npm install
+```
+
+2. Start dev server
+
+```powershell
+npm run dev
+```
+
+3. Open the site
+
+```text
+http://localhost:5173/
+```
