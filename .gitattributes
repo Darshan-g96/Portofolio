@@ -1,0 +1,2 @@
+# Tell Linguist to ignore the main styles file if it's too large and skewing the stats
+src/styles.css linguist-vendored
