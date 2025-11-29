@@ -13,7 +13,7 @@ export default function Hero() {
           <button className="btn">Get In Touch</button>
         </div>
         <div className="hero-image">
-          <img src="../../public/profilePic.svg" alt="Darshan G Profile" />
+          <img src="profilePic.svg" alt="Darshan G Profile" />
         </div>
       </div>
     </section>

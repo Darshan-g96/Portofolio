@@ -6,22 +6,26 @@ const projects = [
     description:
       "React-based SPA with functional shopping cart and state management.",
     tech: ["React", "JavaScript", "HTML/CSS"],
+    url: "https://github.com/Darshan-g96/VoiceTrigger",
   },
   {
     title: "Quiz Application",
     description:
       "Interactive quiz app with responsive design and real-time scoring.",
     tech: ["HTML5", "CSS3", "JavaScript"],
+    url: "https://github.com/Darshan-g96/VoiceTrigger",
   },
   {
     title: "Portfolio Website",
     description: "Fully responsive portfolio website built with React.",
     tech: ["React", "HTML5", "CSS3"],
+    url: "https://github.com/Darshan-g96/Portofolio",
   },
   {
     title: "Voice Trigger Website",
     description: "An innovative website that responds to voice commands.",
     tech: ["React", "HTML5", "CSS3", "Speech Recognition Library"],
+    url: "https://github.com/Darshan-g96/VoiceTrigger",
   },
 ];
 
@@ -40,7 +44,7 @@ export default function Projects() {
                   <span key={idx}>{tech}</span>
                 ))}
               </div>
-              <a href="#" className="project-link">
+              <a href={project.url} className="project-link">
                 View
               </a>
             </div>
