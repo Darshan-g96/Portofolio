@@ -67,7 +67,7 @@ export default function Contact() {
             </p>
             <div className="social-links">
               <a
-                href="www.linkedin.com/in/darshan-gouda-96a8b6348"
+                href="https://www.linkedin.com/in/darshan-gouda-96a8b6348/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
