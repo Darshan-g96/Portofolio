@@ -1,4 +1,5 @@
 import React from "react";
+import profilePic from "../assets/profilePic.svg";
 
 export default function Hero() {
   return (
@@ -13,7 +14,7 @@ export default function Hero() {
           <button className="btn">Get In Touch</button>
         </div>
         <div className="hero-image">
-          <img src="profilePic.svg" alt="Darshan G Profile" />
+          <img src={profilePic} alt="Darshan G Profile" />
         </div>
       </div>
     </section>

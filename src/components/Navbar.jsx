@@ -1,4 +1,5 @@
 ﻿import React, { useState, useEffect } from "react";
+import resumePDF from "../assets/DarshanFinalResume.pdf";
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -65,7 +66,7 @@ export default function Navbar() {
           </button>
           <a
             className="resume-btn"
-            href="../../src/assets/DarshanFinalResume.pdf"
+            href={resumePDF}
             download="Darshan_Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
